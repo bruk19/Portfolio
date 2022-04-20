@@ -2,21 +2,21 @@
     margin: 0;
     padding: 0;
   }
-  
+
 .header {
   width: 100vw;
   height: 60px;
-  background: #3C3A39;
+  background: #3c3a39;
 }
-  
+
 .name {
   display: flex;
   justify-content: space-between;
   padding-top: 15px;
 }
-  
+
 .name h2 {
-  font-weight: 700; 
+  font-weight: 700;
   font-size: 18px;
   line-height: 24px;
   color: white;
@@ -25,11 +25,11 @@
   padding-left: 24px;
   cursor: pointer;
 }
-  
+
 .name h2:hover {
-  color:rgb(252, 98, 98);
+  color: rgb(252, 98, 98);
 }
-  
+
 .name img {
   width: 18px;
   height: 12px;
@@ -37,9 +37,9 @@
   margin-top: 7px;
   cursor: pointer;
 }
-  
+
 .name img:hover {
-  background-color:rgb(252, 98, 98);
+  background-color: rgb(252, 98, 98);
 }
 
 .information {
@@ -48,31 +48,31 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  background: #1C1A19;
-  background-image: url(img/Group\ \(1\).png);
+  background: #1c1a19;
+  background-image: url(img/Group1.png);
   background-repeat: no-repeat;
-  background-position:right;
+  background-position: right;
   background-position-y: 280px;
   background-size: 130px;
-  }
-  
+}
+
 .discrptive {
   margin-top: 120px;
   width: 320px;
   height: 124px;
   font-weight: 400;
   font-size: 56px;
-  color: #FF6B00;
+  color: #ff6b00;
   margin-left: 24px;
   letter-spacing: 0.37px;
   font-family: 'Crete Round', serif;
   line-height: 64px;
 }
-  
+
 .discrptive-info {
   width: 297px;
   height: 27px;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -81,20 +81,20 @@
   margin-left: 22px;
   margin-top: 6px;
 }
-  
+
 .paragraph {
   width: 327px;
   height: 123px;
   color: white;
   margin-left: 24px;
   margin-top: 12px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15.2px;
   line-height: 24px;
 }
-  
+
 .icon a {
   color: white;
   position: relative;
@@ -105,4 +105,3 @@
   font-size: 20px;
   padding-left: 18px;
 }
-  
