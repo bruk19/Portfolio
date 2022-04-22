@@ -235,7 +235,6 @@ hr {
 
 .btn-list {
   width: 90%;
-  height: 386px;
   background-color: red;
   margin: 8px auto;
   background-image: url(img/Img\ Placeholder\ 2.png);
@@ -255,6 +254,7 @@ hr {
   height: 81px;
   margin: 0 auto;
   margin-top: 88px;
+  padding-right: 15px;
 }
 
 .btn-list p {
@@ -325,13 +325,12 @@ hr {
 
 .about {
   width: 100%;
-  height: 1901px;
   background: #1c1a19;
   margin-top: 105px;
   background-image: url(img/Frame.png);
   background-repeat: no-repeat;
   background-position: right;
-  background-position-y: 360px;
+  background-position-y: 375px;
 }
 
 .about h2 {
@@ -400,7 +399,7 @@ hr {
 .new-lang img {
   position: relative;
   top: 40px;
-  left: 80px;
+  left: 85px;
 }
 
 .new-lang ul {
@@ -432,7 +431,7 @@ hr {
 .framework img {
   position: relative;
   top: 35px;
-  left: 60px;
+  left: 65px;
 }
 
 .framework ul {
@@ -469,6 +468,7 @@ hr {
 
 .skills ul {
   margin-top: 25px;
+  margin-bottom: 90px;
 }
 
 .skills li {
