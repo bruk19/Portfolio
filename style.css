@@ -7,15 +7,15 @@
   width: 100vw;
   height: 60px;
   background: #3c3a39;
+  display: flex;
+  justify-content: space-between;
 }
 
 .name {
-  display: flex;
-  justify-content: space-between;
   padding-top: 15px;
 }
 
-.name a {
+.header a {
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
@@ -24,6 +24,7 @@
   height: 24px;
   padding-left: 24px;
   text-decoration: none;
+  margin-top: 20px;
 }
 
 .name img {
