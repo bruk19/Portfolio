@@ -323,6 +323,11 @@ hr {
   color: #5b5957;
 }
 
+.About-me {
+  background: #1c1a19;
+  margin-top: 110px;
+}
+
 .about {
   width: 100%;
   background: #1c1a19;
@@ -330,7 +335,7 @@ hr {
   background-image: url(img/Frame.png);
   background-repeat: no-repeat;
   background-position: right;
-  background-position-y: 375px;
+  background-position-y: 255px;
 }
 
 .about h2 {
