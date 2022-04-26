@@ -335,7 +335,7 @@ hr {
   background-image: url(img/Frame.png);
   background-repeat: no-repeat;
   background-position: right;
-  background-position-y: 255px;
+  background-position-y: 225px;
 }
 
 .about h2 {
@@ -496,21 +496,20 @@ hr {
   width: 90%;
   margin: 0 auto;
   margin-top: 100px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700 bold;
   font-size: 34px;
   line-height: 44px;
   display: flex;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .ip-type {
   display: flex;
   flex-direction: column;
   width: 87%;
-  margin-top: 160px;
   margin: 0 auto;
   position: relative;
   top: 50px;
@@ -520,14 +519,14 @@ hr {
   border: none;
   border-bottom: 1px solid #dfe1e6;
   height: 30px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .Name {
   border: none;
   border-bottom: 1px solid #dfe1e6;
   height: 30px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .t1 {
@@ -548,7 +547,7 @@ hr {
   margin-left: 90px;
 }
 
-.last-icon{
+.last-icon {
   width: 100%;
 }
 
@@ -570,7 +569,7 @@ hr {
 }
 
 .icons-last li {
-  color: #0D151E;
+  color: #000000;
   list-style: none;
   font-size: 22px;
 }
@@ -578,10 +577,9 @@ hr {
 .contact .last {
   width: 120px;
   height: 4px;
-  background-color: #0D151E;
+  background-color: #0d151e;
   border-radius: 20px;
   position: relative;
   bottom: 1px;
   margin-bottom: 10px;
 }
-
