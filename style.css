@@ -254,7 +254,7 @@ hr {
   height: 81px;
   margin: 0 auto;
   margin-top: 88px;
-  padding-right: 15px;
+  padding-right: 60px;
 }
 
 .btn-list p {
@@ -493,17 +493,17 @@ hr {
 }
 
 .contact h2 {
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
   margin-top: 100px;
   font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 700 bold;
+  font-weight: 900;
   font-size: 34px;
   line-height: 44px;
-  display: flex;
+  
   text-align: center;
   color: #172b4d;
+  height: 216px;
 }
 
 .ip-type {
@@ -544,7 +544,10 @@ hr {
   background: #ff6b00;
   color: #fff;
   border: none;
-  margin-left: 90px;
+  margin-left: 100px;
+  Font-family: 'Inter', sans-serif;
+  font-weight: Bold;
+  font-size: 17px;
 }
 
 .last-icon {
@@ -574,11 +577,15 @@ hr {
   font-size: 22px;
 }
 
+.icons-last i {
+  color: #505F79;
+}
+
 .contact .last {
-  width: 120px;
-  height: 4px;
+  width: 134px;
+  height: 5px;
   background-color: #0d151e;
-  border-radius: 20px;
+  border-radius: 10px;
   position: relative;
   bottom: 1px;
   margin-bottom: 10px;
