@@ -500,7 +500,6 @@ hr {
   font-weight: 900;
   font-size: 34px;
   line-height: 44px;
-  
   text-align: center;
   color: #172b4d;
   height: 216px;
@@ -545,8 +544,8 @@ hr {
   color: #fff;
   border: none;
   margin-left: 100px;
-  Font-family: 'Inter', sans-serif;
-  font-weight: Bold;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
   font-size: 17px;
 }
 
@@ -572,13 +571,12 @@ hr {
 }
 
 .icons-last li {
-  color: #000000;
   list-style: none;
   font-size: 22px;
 }
 
 .icons-last i {
-  color: #505F79;
+  color: #505f79;
 }
 
 .contact .last {
