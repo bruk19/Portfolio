@@ -335,7 +335,7 @@ hr {
   background-image: url(img/Frame.png);
   background-repeat: no-repeat;
   background-position: right;
-  background-position-y: 180px;
+  background-position-y: 200px;
 }
 
 .about h2 {
@@ -468,7 +468,7 @@ hr {
 .skills img {
   position: relative;
   top: 35px;
-  left: 240px;
+  left: 235px;
 }
 
 .skills ul {
