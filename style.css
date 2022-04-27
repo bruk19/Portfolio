@@ -215,7 +215,7 @@ hr {
   margin-top: 12px;
   width: 124px;
   height: 48px;
-  margin-left: 28px;
+  margin-left: 20px;
   background: #ff6b00;
   color: #fff;
   border: none;
@@ -223,7 +223,8 @@ hr {
 
 .button1:hover {
   background: #fff5e1;
-  color: #5b5957;
+  color: #f55800;
+  border: 1px solid #f55800;
 }
 
 .arts {
@@ -254,7 +255,6 @@ hr {
   height: 81px;
   margin: 0 auto;
   margin-top: 88px;
-  padding-right: 210px;
 }
 
 .btn-list p {
@@ -320,7 +320,8 @@ hr {
 
 .btn1:hover {
   background: #fff5e1;
-  color: #5b5957;
+  color: #f55800;
+  border: 1px solid #f55800;
 }
 
 .About-me {
@@ -335,7 +336,7 @@ hr {
   background-image: url(img/Frame.png);
   background-repeat: no-repeat;
   background-position: right;
-  background-position-y: 200px;
+  background-position-y: 250px;
 }
 
 .about h2 {
@@ -380,7 +381,8 @@ hr {
 
 .about button:hover {
   background: #fff5e1;
-  color: #5b5957;
+  color: #f55800;
+  border: 1px solid #f55800;
 }
 
 .about .second-line {
@@ -401,10 +403,14 @@ hr {
   line-height: 44px;
 }
 
+.rec {
+  display: flex;
+}
+
 .new-lang img {
   position: relative;
   top: 40px;
-  left: 190px;
+  left: 90px;
 }
 
 .new-lang ul {
@@ -436,7 +442,7 @@ hr {
 .framework img {
   position: relative;
   top: 35px;
-  left: 180px;
+  left: 72px;
 }
 
 .framework ul {
@@ -462,17 +468,16 @@ hr {
   color: #fff;
   font-weight: 700;
   font-size: 32px;
-  line-height: 44px;
 }
 
 .skills img {
+  padding-left: 120px;
   position: relative;
-  top: 35px;
-  left: 235px;
+  top: 32px;
 }
 
 .skills ul {
-  margin-top: 25px;
+  margin-top: 8px;
   margin-bottom: 90px;
 }
 
@@ -482,18 +487,14 @@ hr {
   font-weight: 400;
   font-size: 22px;
   line-height: 43px;
-  display: grid;
-  place-items: center;
+  display: flex;
+  justify-content: center;
   color: #fff;
-  margin-top: 15px;
-}
-
-.contact {
-  width: 100%;
+  margin-top: 5px;
 }
 
 .contact h2 {
-  width: 85%;
+  width: 93%;
   margin: 0 auto;
   margin-top: 100px;
   font-family: 'Inter', sans-serif;
@@ -511,7 +512,7 @@ hr {
   width: 87%;
   margin: 0 auto;
   position: relative;
-  top: 50px;
+  top: 30px;
 }
 
 .email {
@@ -547,6 +548,12 @@ hr {
   font-family: 'Inter', sans-serif;
   font-weight: bold;
   font-size: 17px;
+}
+
+.get:hover {
+  background: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
 }
 
 .last-icon {
