@@ -219,6 +219,23 @@
 
 .my-workr button:hover {
   background-color: #fff5e1;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.03em;
+  margin-top: 12px;
+  width: 124px;
+  height: 48px;
+  margin-left: 20px;
+  background: #ff6b00;
+  color: #fff;
+  border: none;
+}
+
+.button1:hover {
+  background: #fff5e1;
   color: #f55800;
   border: 1px solid #f55800;
 }
@@ -257,6 +274,20 @@
   background-image: url(img/place.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.btn-list h3 {
+  font-family: 'Crete Round', sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #fff;
+  width: 295px;
+  height: 81px;
+  margin: 0 auto;
+  margin-top: 88px;
 }
 
 .data3 {
@@ -349,6 +380,12 @@
   margin-top: 25px;
 }
 
+.btn1:hover {
+  background: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
+}
+
 .mob-li li {
   display: flex;
   list-style: none;
@@ -370,6 +407,8 @@
   background-size: 510px;
   background-position-x: 69vw;
   background-position-y: 12vh;
+  background-position: right;
+  background-position-y: 250px;
 }
 
 .about-work {
@@ -414,6 +453,10 @@
 
 .about-btn:hover {
   background-color: #fff5e1;
+}
+
+.about button:hover {
+  background: #fff5e1;
   color: #f55800;
   border: 1px solid #f55800;
 }
@@ -448,6 +491,16 @@
   list-style: none;
 }
 
+.rec {
+  display: flex;
+}
+
+.new-lang img {
+  position: relative;
+  top: 40px;
+  left: 90px;
+}
+
 .recta img {
   position: relative;
   right: 42px;
@@ -479,6 +532,12 @@
   border: none;
   border-bottom: 1px solid rgb(219, 208, 208);
   margin-top: 20px;
+}
+
+.framework img {
+  position: relative;
+  top: 35px;
+  left: 72px;
 }
 
 .input-one {
@@ -536,6 +595,133 @@
   font-size: 25px;
   margin-bottom: 30px;
   padding-top: 10px;
+  font-size: 32px;
+}
+
+.skills img {
+  padding-left: 120px;
+  position: relative;
+  top: 32px;
+}
+
+.skills ul {
+  margin-top: 8px;
+  margin-bottom: 90px;
+}
+
+.skills li {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  margin-top: 5px;
+}
+
+.contact h2 {
+  width: 93%;
+  margin: 0 auto;
+  margin-top: 100px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  font-size: 34px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+  height: 216px;
+}
+
+.ip-type {
+  display: flex;
+  flex-direction: column;
+  width: 87%;
+  margin: 0 auto;
+  position: relative;
+  top: 30px;
+}
+
+.email {
+  border: none;
+  border-bottom: 1px solid #dfe1e6;
+  height: 30px;
+  margin-bottom: 25px;
+}
+
+.Name {
+  border: none;
+  border-bottom: 1px solid #dfe1e6;
+  height: 30px;
+  margin-bottom: 25px;
+}
+
+.t1 {
+  height: 114px;
+  background: #fbfbf7;
+  border: none;
+  text-justify: top;
+  font-weight: bolder;
+}
+
+.get {
+  margin-top: 24px;
+  width: 131px;
+  height: 48px;
+  background: #ff6b00;
+  color: #fff;
+  border: none;
+  margin-left: 100px;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.get:hover {
+  background: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
+}
+
+.last-icon {
+  width: 100%;
+}
+
+.contact .asch {
+  width: 100%;
+  font-weight: lighter;
+  font-size: 0.5px;
+  color: #dfe1e6;
+  position: relative;
+  top: 155px;
+}
+
+.icons-last {
+  display: flex;
+  gap: 20px;
+  margin-top: 175px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.icons-last li {
+  list-style: none;
+  font-size: 22px;
+}
+
+.icons-last i {
+  color: #505f79;
+}
+
+.contact .last {
+  width: 134px;
+  height: 5px;
+  background-color: #0d151e;
+  border-radius: 10px;
+  position: relative;
+  bottom: 1px;
+  margin-bottom: 10px;
 }
 
 .last-icon i {
