@@ -29,7 +29,7 @@
 }
 
 .nav-menu li {
-    padding-right: 32px;
+  padding-right: 32px;
 }
 
 .main-m {
@@ -38,13 +38,12 @@
 
 .tit {
   color: #fff;
-  font-size: 20px;
   text-decoration: none;
   display: flex;
   align-items: center;
   margin-left: 150px;
   font-family: "Inter", sans-serif;
-  font-style: Bold;
+  font-style: bold;
   font-size: 20px;
 }
 
@@ -91,7 +90,7 @@
 }
 
 .bura {
-  color: #f55800;;
+  color: #f55800;
   width: 400px;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
@@ -101,7 +100,6 @@
 }
 
 .job {
-  font-size: 32px;
   line-height: 44px;
   color: #fff;
   font-weight: 700;
@@ -119,12 +117,6 @@
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-size: 20px;
-  line-height: 32px;
-}
-
-.my-recent {
-  padding-top: 120px;
-  padding-left: 90px;
 }
 
 .work-hr {
@@ -136,7 +128,7 @@
   width: 60%;
   margin-left: 600px;
   position: relative;
-  bottom: 20px;    
+  bottom: 20px;  
 }
 
 .my-recent {
@@ -145,6 +137,8 @@
   margin-left: 20px;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
+  padding-top: 120px;
+  padding-left: 90px;
 }
 
 .img {
@@ -178,7 +172,6 @@
   color: #091e42;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
   line-height: 28px;
 }
 
@@ -207,8 +200,8 @@
   margin-top: 25px;
   width: 25%;
   height: 48px;
-  background-color: #F55800;
-  color: #fff;   
+  background-color: #f55800;
+  color: #fff;
   font-size: 15px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -229,8 +222,7 @@
   width: 124px;
   height: 48px;
   margin-left: 20px;
-  background: #ff6b00;
-  color: #fff;
+  color: #f55800;
   border: none;
 }
 
@@ -246,7 +238,7 @@
 
 .desk-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   margin-top: 40px;
   width: 70%;
@@ -308,19 +300,13 @@
   background-size: cover;
 }
 
-.desk-list {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-
 .desk-list button {
   width: 100%;
   height: 60px;
   background-color: #f55800;
-  color: #fff;   
+  color: #fff;
   margin-top: 300px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700; 
   font-size: 17px;
@@ -336,7 +322,6 @@
 .mob-tit {
   color: #fff;
   font-size: 32px;
-  font-weight: lighter;
   display: flex;
   justify-content: center;
   font-family: 'Crete Round', sans-serif;
@@ -350,7 +335,6 @@
 .mob-tit1 {
   color: #fff;
   font-size: 32px;
-  font-weight: lighter;
   display: flex;
   justify-content: center;
   font-family: 'Crete Round', sans-serif;
@@ -365,7 +349,6 @@
   color: #fff;
   margin-left: 15px;
   margin-top: 30px;
-  font-weight: lighter;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -408,7 +391,6 @@
   background-position-x: 69vw;
   background-position-y: 12vh;
   background-position: right;
-  background-position-y: 250px;
 }
 
 .about-work {
@@ -427,14 +409,12 @@
   color: #fff;
   width: 566px;
   height: 148px;
-  line-height: 27px;
   margin-left: 88px;
   font-size: 19px;
   margin-top: 10px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
   line-height: 32px;
 }
 
@@ -443,7 +423,7 @@
   height: 50px;
   margin-left: 88px;
   background-color: #f55800;
-  color: #fff;  
+  color: #fff;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -510,7 +490,7 @@
 .recta li {
   position: relative;
   left: 10px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -553,7 +533,7 @@
 .cont p {
   width: 600px;
   margin-left: 70px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -566,7 +546,6 @@
   margin-top: 15px;
   background-color: #f55800;
   color: #fff;
-  font-size: 18px;
   height: 48px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -684,10 +663,6 @@
   border: 1px solid #f55800;
 }
 
-.last-icon {
-  width: 100%;
-}
-
 .contact .asch {
   width: 100%;
   font-weight: lighter;
@@ -730,70 +705,70 @@
 }
 
 @media screen and (max-width:1100px) {
-    .desk-list button{
-      margin-top: 450px;
-    }
+  .desk-list button{
+     margin-top: 450px;
+  }
 
-    .mob-li li {
-      width: min-content;
-    }
+  .mob-li li {
+    width: min-content;
+  }
 
-    .recent-list li {
-      width: min-content;
-    }
+  .recent-list li {
+    width: min-content;
+  }
 }
 @media screen and (max-width:768px) {
-    body {
-      width: 100%;
-      overflow-x: hidden;
-    }
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
 
-    .nav-top {
-      display: flex;
-    }
+  .nav-top {
+    display: flex;
+  }
 
-    .tit {
-      position: relative;
-      right: 90px;
-    }
+  .tit {
+    position: relative;
+    right: 90px;
+  }
 
-    .nav-menu {
-      display: none;
-    }
+  .nav-menu {
+    display: none;
+  }
 
-    .main-m {
-      display: block;
-      padding-right: 40px;
-    }
+  .main-m {
+    display: block;
+    padding-right: 40px;
+  }
 
-    .info {
-      width: 100%;
-      background-size: 10px;
-      background-position-y: 370px;
-      background-position-x: 565px;
-      height: 600px;
-      background-image: url(img/Group-mob.png);
-      background-repeat: no-repeat;
-      background-position-x: 80.5vw;
-      background-size: 150px;
-      background-position-y: 270px;    
-    }
+  .info {
+    width: 100%;
+    background-size: 10px;
+    background-position-y: 370px;
+    background-position-x: 565px;
+    height: 600px;
+    background-image: url(img/Group-mob.png);
+    background-repeat: no-repeat;
+    background-position-x: 80.5vw;
+    background-size: 150px;
+    background-position-y: 270px;    
+  }
 
-    .about-bruk {
-      position: relative;
-      right: 230px;
-    }
+  .about-bruk {
+    position: relative;
+    right: 230px;
+  }
     
-    .about-bruk h1 {
-      width: 327px;
-      font-size: 55px;
-      line-height: 64px;
-    }
+  .about-bruk h1 {
+    width: 327px;
+    font-size: 55px;
+    line-height: 64px;
+  }
 
-    .about-bruk h2 {
-      width: 327px;
-      font-size: 25px;
-    }
+  .about-bruk h2 {
+    width: 327px;
+    font-size: 25px;
+  }
     
     .discription {
       width: 358px;
