@@ -59,6 +59,18 @@
   letter-spacing: 0.37px;
   font-family: 'Crete Round', serif;
   line-height: 64px;
+  animation-name: title-animation;
+  animation-duration: 5s;
+}
+
+@keyframes title-animation {
+  from {
+    margin-left: -200px;
+  }
+
+  to {
+    margin-left: 80px;
+  }
 }
 
 .discrptive-info {
@@ -224,6 +236,7 @@ hr {
 .button1:hover {
   background: #fff5e1;
   color: #5b5957;
+  transition: all 0.2s ease-in-out;
 }
 
 .arts {
@@ -321,6 +334,7 @@ hr {
 .btn1:hover {
   background: #fff5e1;
   color: #5b5957;
+  transition: all 0.2s ease-in-out;
 }
 
 .About-me {
@@ -381,6 +395,7 @@ hr {
 .about button:hover {
   background: #fff5e1;
   color: #5b5957;
+  transition: all 0.2s ease-in-out;
 }
 
 .about .second-line {
