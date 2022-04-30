@@ -209,26 +209,10 @@
   font-weight: 700;
 }
 
-.desk-list button:hover {
-  background-color: #fff5e1;
+.my-workr button:hover {
+  background: #fff5e1;
   color: #f55800;
   border: 1px solid #f55800;
-}
-
-.my-workr button:hover {
-  background-color: #fff5e1;
-  font-size: 17px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  letter-spacing: 0.03em;
-  margin-top: 12px;
-  width: 124px;
-  height: 48px;
-  margin-left: 20px;
-  color: #f55800;
-  border: none;
 }
 
 .button1:hover {
@@ -318,6 +302,12 @@
   border: none;
 }
 
+.desk-list button:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
+}
+
 .mob-tit {
   color: #fff;
   font-size: 32px;
@@ -388,8 +378,7 @@
   background-repeat: no-repeat;
   background-size: 510px;
   background-position-x: 69vw;
-  background-position-y: 12vh;
-  background-position: right;
+  background-position-y: 8vh;
 }
 
 .about-work {
@@ -418,7 +407,7 @@
 }
 
 .about-btn {
-  min-width: 100px;
+  width: 160px;
   height: 50px;
   margin-left: 88px;
   background-color: #f55800;
@@ -835,7 +824,7 @@
     height: 100%;
     margin-left: 60px;
   }
-    
+
   .dash-mob {
     background-image: url(img/dark.png);
     background-repeat: no-repeat;
