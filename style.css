@@ -236,7 +236,7 @@ hr {
 .button1:hover {
   background: #fff5e1;
   color: #5b5957;
-  transition: all 0.2s ease-in-out;
+  
 }
 
 .arts {
@@ -334,7 +334,6 @@ hr {
 .btn1:hover {
   background: #fff5e1;
   color: #5b5957;
-  transition: all 0.2s ease-in-out;
 }
 
 .About-me {
@@ -395,7 +394,6 @@ hr {
 .about button:hover {
   background: #fff5e1;
   color: #5b5957;
-  transition: all 0.2s ease-in-out;
 }
 
 .about .second-line {
@@ -461,7 +459,7 @@ hr {
 .framework li {
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 399;
   font-size: 22px;
   line-height: 43px;
   display: flex;
