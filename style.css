@@ -227,7 +227,7 @@ hr {
   margin-top: 12px;
   width: 124px;
   height: 48px;
-  margin-left: 18px;
+  margin-left: 20px;
   background: #ff6b00;
   color: #fff;
   border: none;
@@ -237,6 +237,8 @@ hr {
   background: #fff5e1;
   color: #5b5957;
   transition: all 0.2s ease-in-out;
+  color: #f55800;
+  border: 1px solid #f55800;
 }
 
 .arts {
@@ -267,7 +269,6 @@ hr {
   height: 81px;
   margin: 0 auto;
   margin-top: 88px;
-  padding-right: 15px;
 }
 
 .btn-list p {
@@ -335,6 +336,8 @@ hr {
   background: #fff5e1;
   color: #5b5957;
   transition: all 0.2s ease-in-out;
+  color: #f55800;
+  border: 1px solid #f55800;
 }
 
 .About-me {
@@ -349,7 +352,7 @@ hr {
   background-image: url(img/Frame.png);
   background-repeat: no-repeat;
   background-position: right;
-  background-position-y: 255px;
+  background-position-y: 250px;
 }
 
 .about h2 {
@@ -396,6 +399,8 @@ hr {
   background: #fff5e1;
   color: #5b5957;
   transition: all 0.2s ease-in-out;
+  color: #f55800;
+  border: 1px solid #f55800;
 }
 
 .about .second-line {
@@ -416,10 +421,14 @@ hr {
   line-height: 44px;
 }
 
+.rec {
+  display: flex;
+}
+
 .new-lang img {
   position: relative;
   top: 40px;
-  left: 85px;
+  left: 90px;
 }
 
 .new-lang ul {
@@ -451,7 +460,7 @@ hr {
 .framework img {
   position: relative;
   top: 35px;
-  left: 65px;
+  left: 72px;
 }
 
 .framework ul {
@@ -477,17 +486,16 @@ hr {
   color: #fff;
   font-weight: 700;
   font-size: 32px;
-  line-height: 44px;
 }
 
 .skills img {
+  padding-left: 120px;
   position: relative;
-  top: 35px;
-  left: 120px;
+  top: 32px;
 }
 
 .skills ul {
-  margin-top: 25px;
+  margin-top: 8px;
   margin-bottom: 90px;
 }
 
@@ -497,8 +505,113 @@ hr {
   font-weight: 400;
   font-size: 22px;
   line-height: 43px;
-  display: grid;
-  place-items: center;
+  display: flex;
+  justify-content: center;
   color: #fff;
   margin-top: 15px;
+}
+  margin-top: 5px;
+}
+
+.contact h2 {
+  width: 93%;
+  margin: 0 auto;
+  margin-top: 100px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  font-size: 34px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+  height: 216px;
+}
+
+.ip-type {
+  display: flex;
+  flex-direction: column;
+  width: 87%;
+  margin: 0 auto;
+  position: relative;
+  top: 30px;
+}
+
+.email {
+  border: none;
+  border-bottom: 1px solid #dfe1e6;
+  height: 30px;
+  margin-bottom: 25px;
+}
+
+.Name {
+  border: none;
+  border-bottom: 1px solid #dfe1e6;
+  height: 30px;
+  margin-bottom: 25px;
+}
+
+.t1 {
+  height: 114px;
+  background: #fbfbf7;
+  border: none;
+  text-justify: top;
+  font-weight: bolder;
+}
+
+.get {
+  margin-top: 24px;
+  width: 131px;
+  height: 48px;
+  background: #ff6b00;
+  color: #fff;
+  border: none;
+  margin-left: 100px;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.get:hover {
+  background: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
+}
+
+.last-icon {
+  width: 100%;
+}
+
+.contact .asch {
+  width: 100%;
+  font-weight: lighter;
+  font-size: 0.5px;
+  color: #dfe1e6;
+  position: relative;
+  top: 155px;
+}
+
+.icons-last {
+  display: flex;
+  gap: 20px;
+  margin-top: 175px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.icons-last li {
+  list-style: none;
+  font-size: 22px;
+}
+
+.icons-last i {
+  color: #505f79;
+}
+
+.contact .last {
+  width: 134px;
+  height: 5px;
+  background-color: #0d151e;
+  border-radius: 10px;
+  position: relative;
+  bottom: 1px;
+  margin-bottom: 10px;
 }
