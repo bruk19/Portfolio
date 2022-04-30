@@ -85,7 +85,7 @@
 }
 
 .about-bruk {
-  padding-left: 80px;
+  padding-left: 70px;
   padding-top: 60px;
 }
 
@@ -161,7 +161,7 @@
   font-size: 40px;
   line-height: 52px;
   color: #091e42;
-  width: 60%;
+  width: 90%;
 }
 
 .recent-disc {
@@ -731,12 +731,12 @@
 
   .info {
     width: 100%;
-    background-size: 150px;
-    background-position-y: 289px;
+    background-size: 120px;
+    background-position-y: 345px;
     height: 600px;
     background-image: url(img/Group-mob.png);
     background-repeat: no-repeat;
-    background-position-x: 80.5vw;
+    background-position-x: right;
   }
 
   .about-bruk {
@@ -756,7 +756,7 @@
   }
 
   .discription {
-    width: 358px;
+    width: 318px;
     font-size: 19px;
     line-height: 23px;
   }
@@ -764,11 +764,11 @@
   .icon {
     display: flex;
     flex-direction: row;
-    padding-top: 72vh;
+    padding-top: 75vh;
     gap: 22px;
     cursor: pointer;
     position: relative;
-    left: 20px;
+    left: 13px;
   }
 
   .icon li {
@@ -788,8 +788,9 @@
   }
 
   .recent-list li {
-    width: 10%;
+    width: 70px;
     height: 40px;
+    gap: 2px;
   }
 
   .work-hr hr {
@@ -807,12 +808,12 @@
   .img img {
     width: 90%;
     position: relative;
-    right: 78px;
+    right: 88px;
   }
 
   .my-workr {
     position: relative;
-    left: 60px;
+    left: 30px;
     margin-top: 35px;
   }
 
@@ -827,24 +828,30 @@
   }
 
   .dash-mob {
+    position: relative;
+    right: 25px;
+    height: 460px;
     background-image: url(img/dark.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 90%;
-    background-position-y: -145px;
-    height: 350px;
+    width: 100%;
+    margin-top: 15px;
   }
 
   .mob-tit {
     width: 300px;
-    font-size: 38px;
+    font-size: 32px;
     margin-left: 15px;
-    padding-top: 73px;
+    padding-top: 41px;
+    margin-top: 1px;
+    position: relative;
+    top: 80px;
   }
 
   .mob-dics {
-    width: 80%;
+    width: 295px;
     padding-bottom: 40px;
+    margin-top: 122px;
   }
 
   .mob-li {
@@ -883,8 +890,8 @@
   }
 
   .about {
-    background-size: 200px;
-    background-position-y: 50vh;
+    background-size: 150px;
+    background-position-y: 69vh;
     background-position-x: right;
     height: 1700px;
     background-image: url(img/back.png);
@@ -893,20 +900,22 @@
 
   .about-work {
     position: relative;
-    right: 50px;
+    right: 60px;
+    width: 327px;
   }
 
   .about-me p {
     position: relative;
-    right: 50px;
-    width: 88%;
+    right: 60px;
+    width: 338px;
+    font-size: 16px;
   }
 
   .about-btn {
-    width: 160px;
+    width: 161px;
     position: relative;
     right: 50px;
-    margin-top: 10px;
+    margin-top: 60px;
   }
 
   .about-btn:hover {
@@ -947,12 +956,12 @@
   }
 
   .input {
-    width: 400px;
+    width: 100%;
     margin: 5px auto;
   }
 
   .input-one {
-    width: 400px;
+    width: 100%;
     margin: 5px auto;
   }
 
@@ -966,12 +975,15 @@
     height: 1px;
     background: #dfe1e6;
     position: relative;
-    top: 120px;
+    top: 280px;
   }
 
   .last-icon {
     display: flex;
     justify-content: center;
+    position: relative;
+    top: 170px;
+    height: 190px;
   }
 
   .last-icon i {
@@ -984,3 +996,5 @@
     margin-top: 10vh;
   }
 }
+
+
