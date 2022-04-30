@@ -128,7 +128,7 @@
   width: 60%;
   margin-left: 600px;
   position: relative;
-  bottom: 20px;  
+  bottom: 20px; 
 }
 
 .my-recent {
@@ -207,7 +207,6 @@
   font-style: normal;
   border: none;
   font-weight: 700;
-  border: none;
 }
 
 .my-workr button:hover {
@@ -251,7 +250,7 @@
 .desk-list {
   background-image: url(img/imgplaceholder.png);
   background-repeat: no-repeat;
-  background-size: cover;  
+  background-size: cover;
   border: 1px solid rgb(245, 236, 236);  
 }
 
@@ -308,7 +307,7 @@
   margin-top: 300px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 700; 
+  font-weight: 700;
   font-size: 17px;
   border: none;
 }
@@ -349,7 +348,7 @@
   color: #fff;
   margin-left: 15px;
   margin-top: 30px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -571,7 +570,6 @@
   display: flex;
   justify-content: center;
   gap: 20px;
-  font-size: 25px;
   margin-bottom: 30px;
   padding-top: 10px;
   font-size: 32px;
@@ -704,9 +702,9 @@
   margin-top: 25px;
 }
 
-@media screen and (max-width:1100px) {
-  .desk-list button{
-     margin-top: 450px;
+@media screen and (max-width: 1100px) {
+  .desk-list button {
+    margin-top: 450px;
   }
 
   .mob-li li {
@@ -717,7 +715,7 @@
     width: min-content;
   }
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   body {
     width: 100%;
     overflow-x: hidden;
@@ -745,20 +743,17 @@
     width: 100%;
     background-size: 10px;
     background-position-y: 370px;
-    background-position-x: 565px;
     height: 600px;
     background-image: url(img/Group-mob.png);
     background-repeat: no-repeat;
-    background-position-x: 80.5vw;
-    background-size: 150px;
-    background-position-y: 270px;    
+    background-position-x: 80.5vw;   
   }
 
   .about-bruk {
     position: relative;
     right: 230px;
   }
-    
+  
   .about-bruk h1 {
     width: 327px;
     font-size: 55px;
@@ -769,235 +764,228 @@
     width: 327px;
     font-size: 25px;
   }
+  
+  .discription {
+    width: 358px;
+    font-size: 19px;
+    line-height: 23px;
+  }
+
+  .icon {
+    display: flex;
+    flex-direction: row;
+    padding-top: 47vh;
+    gap: 22px;
+    cursor: pointer;
+    position: relative;
+    left: 40px;
+  }
+
+  .icon li {
+    padding-bottom: 90px;
+  }
+
+  .header {
+    height: 70vh;
+    background-position-x: 20px;
+    background-position-y: 140px;
+    background-size: 300px;
+  }
+
+  .my-recent {
+    margin: 0 auto;
+  }
+
+  .recent-list li {
+    width: 10%;
+    height: 40px;
+  }
+
+ .work-hr hr {
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .img {
+    display: block;
+    width: 100%;
+  }
+
+  .img img {
+    width: 90%;
+    position: relative;
+    right: 78px;
+  }
+
+  .my-workr {
+    position: relative;
+    left: 60px;
+    margin-top: 35px;
+  }
+
+  .desk-grid {
+    display: none;
+  }
+
+  .dash {
+    display: block;
+    height: 100%;
+    margin-left: 60px;
+  }
     
-    .discription {
-      width: 358px;
-      font-size: 19px;
-      line-height: 23px;
-    }
+  .dash-mob {
+    background-image: url(img/dark.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    background-position-y: -145px;
+    height: 350px;
+  }
 
-    .icon {
-      display: flex;
-      flex-direction: row;
-      padding-top: 47vh;
-      gap: 22px;
-      cursor: pointer;
-      position: relative;
-      left: 40px;
-    }
+  .mob-tit {
+    width: 300px;
+    font-size: 38px;
+    margin-left: 15px;
+    padding-top: 73px;
+  }
 
-    .icon li {
-      padding-bottom: 90px;
-    }
+  .mob-dics {
+    width: 80%;
+    padding-bottom: 40px;
+  }
 
-    .header {
-      height: 70vh;
-      background-position-x: 20px;
-      background-position-y: 140px;
-      background-size: 300px;
-    }
+  .mob-li {
+    width: 80%;
+    position: relative;
+    bottom: 60px;
+  }
 
-    .my-recent {
-      margin: 0 auto;
-    }
+  .mob-li li {
+    width: 25%;
+    border: 1px solid rgb(141, 127, 127);
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+  }
 
-    .recent-list li {
-      width: 10%;
-      height: 40px;
-    }
+  .dash-mob button {
+    width: 100%;
+    height: 50px;
+    background-color: #f55800;
+    color: #fff;   
+    position: relative;
+    bottom: 40px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+  }
 
-    .work-hr hr {
-      margin-top: 45px;
-      margin-left: auto;
-      margin-right: auto;
-      width: 100%;
-    }
+  .dash-mob button:hover {
+    background-color: #fff5e1;
+    color: #f55800;
+    border: 1px solid #f55800;
+  }
 
-    .img {
-      display: block;
-      width: 100%;
-    }
+  .about {
+    background-size: 400px;
+    background-position-y: 42vh;
+    background-position-x: 61vh;
+    height: 1700px;
+  }
 
-    .img img {
-      width: 90%;
-      position: relative;
-      right: 78px;
-    }
+  .about-work {
+    position: relative;
+    right: 50px;
+  }
 
-    .my-workr {
-      position: relative;
-      left: 60px;
-      margin-top: 35px;
-    }
+  .about-me p {
+    position: relative;
+    right: 50px; 
+    width: 88%; 
+  }
 
-    .desk-grid {
-      display: none;
-    }
+  .about-btn {
+    width: 160px;
+    position: relative;
+    right: 50px;
+    margin-top: 10px;
+  }
 
-    .dash {
-      display: block;
-      height: 100%;
-      margin-left: 60px;
-    }
-    
-    .dash-mob {
-      background-image: url(img/dark.png);
-      background-repeat: no-repeat;
-      background-size: cover;
-      width: 90%;
-      background-position-y: -145px;
-      height: 350px;
-    }
+  .about-btn:hover {
+    background-color: #fff5e1;
+    color: #f55800;
+    border: 1px solid #f55800;
+  }
 
-    .mob-tit {
-      width: 300px;
-      font-size: 38px;
-      margin-left: 15px;
-      padding-top: 73px;
-    }
+  .about hr {
+    width: 100%;
+  }
 
-    .mob-dics {
-      width: 80%;
-      padding-bottom: 40px;
-    }
+  .about-list {
+    display: grid;
+    justify-content: center;
+    height: 80vh;
+    background-color: #1c1a19;
+  }
 
-    .mob-li {
-      width: 80%;
-      position: relative;
-      bottom: 60px;
-    }
+  .contact {
+    display: block;
+  }
 
-    .mob-li li {
-      width: 25%;
-      border: 1px solid rgb(141, 127, 127);
-      font-family: 'Inter', sans-serif;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 15px;
-    }
+  .contact p {
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    margin: 0 auto;
+    width: 70%;
+  }
 
-    .dash-mob button {
-      width: 100%;
-      height: 50px;
-      background-color: #f55800;
-      color: #fff;   
-      position: relative;
-      bottom: 40px;
-      border: none;
-      font-family: 'Inter', sans-serif;
-      font-style: normal;
-      font-weight: 700;
-      font-size: 17px;
-    }
+  .email {
+    width: 100%;
+    margin: 0 auto;
+  }
 
-    .dash-mob button:hover {
-      background-color: #fff5e1;
-      color: #f55800;
-      border: 1px solid #f55800;
-    }
+  .input {
+    width: 400px;
+  }
 
-    .about {
-      background-size: 400px;
-      background-position-y: 42vh;
-      background-position-x: 61vh;
-      height: 1700px;
-    }
-    
-    .about-work {
-      position: relative;
-      right: 50px;
-    }
+  .input-one {
+    width: 400px;
+  }
 
-    .about-me p {
-      position: relative;
-      right: 50px; 
-      width: 88%; 
-    }
+  .cont-btn {
+    width: 140px;
+  }
 
-    .about-btn {
-      width: 160px;
-      position: relative;
-      right: 50px;
-      margin-top: 10px;
-    }
+  .lin-la {
+    display: flex;
+    height: 1px;
+    background: #dfe1e6;
+    position: relative;
+    top: 120px;
+  }
 
-    .about-btn:hover {
-      background-color: #fff5e1;
-      color: #f55800;
-      border: 1px solid #f55800;
-    }
+  .last-icon {
+    display: flex;
+    justify-content: center;
+  }
 
-    .about hr {
-      width: 100%;
-    }
+  .last-icon i {
+    color: #505f79;
+    margin-top: 140px;
+  }
 
-    .about-list {
-      display: grid;
-      justify-content: center;
-      height: 80vh;
-      background-color: #1c1a19;
-    }
-
-    .cont {
-      margin-top: 10vh;
-    }
-
-    .contact {
-      display: block;
-    }
-
-    .contact p {
-      font-weight: bolder;
-      text-align: center;
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 32px;
-      line-height: 44px;
-      margin: 0 auto;
-      width: 70%;
-    }
-
-    .email {
-      margin-top: 50px;
-      width: 100%;
-      margin: 0 auto;
-    }
-
-    .input {
-      width: 400px;
-    }
-
-    .input-one {
-      width: 400px;
-    }
-
-    .cont-btn {
-      width: 140px;
-    }
-
-    .lin-la {
-      position: relative;
-      top: 120px;
-    }
-
-    .lin-la {
-      display: flex;
-      height: 1px;
-      background: #dfe1e6;
-    }
-
-    .last-icon {
-      display:flex ;
-      justify-content: center;
-    }
-
-    .last-icon i {
-      color: #505f79;
-      margin-top: 140px;
-    }
-
-    .cont {
-      height: 62vh;
-    }
+  .cont {
+    height: 62vh;
+    margin-top: 10vh;
+  }
 }
