@@ -731,12 +731,12 @@
 
   .info {
     width: 100%;
-    background-size: 10px;
-    background-position-y: 370px;
+    background-size: 150px;
+    background-position-y: 289px;
     height: 600px;
     background-image: url(img/Group-mob.png);
     background-repeat: no-repeat;
-    background-position-x: 80.5vw;
+    background-position-x: 78vw;
   }
 
   .about-bruk {
