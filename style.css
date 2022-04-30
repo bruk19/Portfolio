@@ -131,6 +131,25 @@
   bottom: 20px;
 }
 
+.desk-list button {
+  width: 100%;
+  height: 60px;
+  background-color: #f55800;
+  color: #fff;
+  margin-top: 300px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  border: none;
+}
+
+.desk-list button:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
+}
+
 .my-recent {
   font-weight: 400;
   font-size: 40px;
@@ -251,7 +270,7 @@
   background-image: url(img/imgplaceholder.png);
   background-repeat: no-repeat;
   background-size: cover;
-  border: 1px solid rgb(245, 236, 236); 
+  border: 1px solid rgb(245, 236, 236);
 }
 
 .data1 {
@@ -297,25 +316,6 @@
   background-image: url(img/place.png);
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.desk-list button {
-  width: 100%;
-  height: 60px;
-  background-color: #f55800;
-  color: #fff;
-  margin-top: 300px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  border: none;
-}
-
-.desk-list button:hover {
-  background-color: #fff5e1;
-  color: #f55800;
-  border: 1px solid #f55800;
 }
 
 .mob-tit {
@@ -754,7 +754,7 @@
     position: relative;
     right: 230px;
   }
-  
+
   .about-bruk h1 {
     width: 327px;
     font-size: 55px;
@@ -765,7 +765,7 @@
     width: 327px;
     font-size: 25px;
   }
-  
+
   .discription {
     width: 358px;
     font-size: 19px;
@@ -802,7 +802,7 @@
     height: 40px;
   }
 
- .work-hr hr {
+  .work-hr hr {
     margin-top: 45px;
     margin-left: auto;
     margin-right: auto;
@@ -835,7 +835,7 @@
     height: 100%;
     margin-left: 60px;
   }
-    
+
   .dash-mob {
     background-image: url(img/dark.png);
     background-repeat: no-repeat;
