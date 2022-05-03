@@ -210,16 +210,18 @@
 }
 
 .desk-list button {
+  
   width: 100%;
   height: 60px;
   background-color: #8a3200;
   color: #fff;
-  margin-top: 300px;
+  margin-top: 400px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   border: none;
+ 
 }
 
 .my-workr button:hover {
@@ -255,6 +257,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   border: 1px solid rgb(245, 236, 236);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
 .data1 {
@@ -817,7 +823,7 @@
   .my-workr {
     position: relative;
     left: 30px;
-    margin-top: 35px;
+    margin-top: 35px;    
   }
 
   .desk-grid {
