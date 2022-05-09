@@ -711,8 +711,12 @@
     overflow-x: hidden;
   }
 
+  .head {
+    display: block;
+  }
+
   .nav-top {
-    display: flex;
+    display: block;
   }
 
   .tit {
@@ -724,9 +728,47 @@
     display: none;
   }
 
+  .nav-menu.active {
+    height: 100vh;
+    position: relative;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #4d4d4d;
+    width: 100%;
+    z-index: 1;
+    gap: 50px;
+  }
+
   .main-m {
-    display: block;
-    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    width: 24px;
+    gap: 3px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .main-m .bar {
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+
+  #mob-mn.is-active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  #mob-mn.is-active .bar:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+  }
+
+  #mob-mn.is-active .bar:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
   }
 
   .info {
