@@ -763,11 +763,6 @@
     opacity: 0;
   }
 
-  .pop {
-    height: 30px;
-    width: ;
-  }
-
   .main-m {
     display: flex;
     flex-direction: column;
