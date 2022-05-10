@@ -76,6 +76,7 @@
   display: flex;
   flex-direction: column;
   padding-top: 115px;
+  gap: 30px;
 }
 
 .icon i {
@@ -214,7 +215,7 @@
   height: 60px;
   background-color: #f55800;
   color: #fff;
-  margin-top: 300px;
+  margin-top: 360px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -318,7 +319,7 @@
   font-weight: 400;
   line-height: 44px;
   margin-left: 15px;
-  margin-top: 90px;
+  margin-top: 135px;
 }
 
 .mob-tit1 {
@@ -762,11 +763,9 @@
     opacity: 0;
   }
 
-  .nav-top .pop {
+  .pop {
     height: 30px;
-    width: 100%;
-    background-color: #fff;
-    z-index: 40;
+    width: ;
   }
 
   .main-m {
@@ -835,7 +834,7 @@
   .icon {
     display: flex;
     flex-direction: row;
-    padding-top: 75vh;
+    padding-top: 87vh;
     gap: 22px;
     cursor: pointer;
     position: relative;
@@ -1053,8 +1052,8 @@
     display: flex;
     justify-content: center;
     position: relative;
-    top: 170px;
-    height: 190px;
+    top: 280px;
+    height: 110px;
   }
 
   .last-icon i {
