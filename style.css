@@ -80,7 +80,7 @@
 
 .icon i {
   color: #fff;
-  padding-top: 30px;
+  padding-top: 50px;
   font-size: 20px;
 }
 
@@ -721,7 +721,8 @@
 
   .tit {
     position: relative;
-    right: 90px;
+    right: 120px;
+    top: 14px;
   }
 
   .nav-menu {
@@ -731,7 +732,7 @@
   .nav-menu.active {
     height: 100vh;
     position: relative;
-    top: 20px;
+    top: 30px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -741,6 +742,16 @@
     gap: 50px;
   }
 
+  .nav-menu li {
+    position: relative;
+    top: 35px;
+    font-size: 23px;
+  }
+
+  .nav-menu img {
+    display: none;
+  }
+
   .main-m {
     display: flex;
     flex-direction: column;
@@ -748,8 +759,8 @@
     width: 24px;
     gap: 3px;
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 18px;
+    right: 15px;
   }
 
   .main-m .bar {
@@ -783,7 +794,7 @@
 
   .about-bruk {
     position: relative;
-    right: 250px;
+    right: 260px;
   }
 
   .about-bruk h1 {
