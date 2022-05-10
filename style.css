@@ -76,11 +76,14 @@
   display: flex;
   flex-direction: column;
   padding-top: 115px;
+  gap: 5px;
 }
 
 .icon i {
   color: #fff;
   padding-top: 50px;
+.icon img {
+  padding-top: 30px;
   font-size: 20px;
 }
 
@@ -200,7 +203,7 @@
   margin-top: 25px;
   width: 25%;
   height: 48px;
-  background-color: #f55800;
+  background-color: #852c00;
   color: #fff;
   font-size: 15px;
   font-family: 'Inter', sans-serif;
@@ -212,9 +215,9 @@
 .desk-list button {
   width: 100%;
   height: 60px;
-  background-color: #f55800;
+  background-color: #8a3200;
   color: #fff;
-  margin-top: 300px;
+  margin-top: 400px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -255,6 +258,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   border: 1px solid rgb(245, 236, 236);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
 .data1 {
@@ -311,6 +318,7 @@
 .mob-tit {
   color: #fff;
   font-size: 32px;
+  background-color: #4d4d4d;
   display: flex;
   justify-content: center;
   font-family: 'Crete Round', sans-serif;
@@ -318,12 +326,13 @@
   font-weight: 400;
   line-height: 44px;
   margin-left: 15px;
-  margin-top: 90px;
+  margin-top: 130px;
 }
 
 .mob-tit1 {
   color: #fff;
   font-size: 32px;
+  background-color: #4d4d4d;
   display: flex;
   justify-content: center;
   font-family: 'Crete Round', sans-serif;
@@ -337,6 +346,7 @@
 .mob-dics {
   color: #fff;
   margin-left: 15px;
+  background-color: #4d4d4d;
   margin-top: 30px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -410,7 +420,7 @@
   width: 160px;
   height: 50px;
   margin-left: 88px;
-  background-color: #f55800;
+  background-color: #8f3400;
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -532,7 +542,7 @@
   margin-left: 150px;
   width: 131px;
   margin-top: 15px;
-  background-color: #f55800;
+  background-color: #8a3200;
   color: #fff;
   height: 48px;
   font-family: 'Roboto', sans-serif;
