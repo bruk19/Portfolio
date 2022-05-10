@@ -43,7 +43,6 @@
   align-items: center;
   margin-left: 150px;
   font-family: "Inter", sans-serif;
-  font-style: bold;
   font-size: 20px;
 }
 
@@ -628,7 +627,6 @@
   height: 114px;
   background: #fbfbf7;
   border: none;
-  text-justify: top;
   font-weight: bolder;
 }
 
