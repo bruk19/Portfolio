@@ -732,24 +732,41 @@
   .nav-menu.active {
     height: 100vh;
     position: relative;
-    top: 30px;
+    top: -10px;
     display: flex;
+    text-align: left;
     flex-direction: column;
-    text-align: center;
-    background-color: #4d4d4d;
+    background: #3c3a39;
     width: 100%;
     z-index: 1;
-    gap: 50px;
+    gap: 30px;
   }
 
   .nav-menu li {
     position: relative;
     top: 35px;
-    font-size: 23px;
+    left: 35px;
+    width: 80%;
+    color: #fff5e1;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    border-bottom: 1px solid #6f6c6b;
   }
 
   .nav-menu img {
-    display: none;
+    margin-top: 191px;
+    color: #3c3a39;
+    opacity: 0;
+  }
+
+  .nav-top .pop {
+    height: 30px;
+    width: 100%;
+    background-color: white;
+    z-index: 40;
   }
 
   .main-m {
@@ -761,6 +778,7 @@
     position: absolute;
     top: 18px;
     right: 15px;
+    z-index: 25;
   }
 
   .main-m .bar {
@@ -928,7 +946,7 @@
     background-color: #f55800;
     color: #fff;
     position: relative;
-    bottom: 40px;
+    bottom: 37px;
     border: none;
     font-family: 'Inter', sans-serif;
     font-style: normal;
