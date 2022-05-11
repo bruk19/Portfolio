@@ -20,6 +20,12 @@
   align-items: center;
 }
 
+.nav-top img {
+  position: relative;
+  right: 130px;
+  top: 2px;
+}
+
 .nav-menu {
   display: flex;
   list-style: none;
@@ -43,7 +49,6 @@
   align-items: center;
   margin-left: 150px;
   font-family: "Inter", sans-serif;
-  font-style: bold;
   font-size: 20px;
 }
 
@@ -76,17 +81,18 @@
   display: flex;
   flex-direction: column;
   padding-top: 115px;
-  gap: 5px;
+  gap: 30px;
 }
 
-.icon img {
-  padding-top: 30px;
+.icon i {
+  color: #fff;
+  padding-top: 50px;
   font-size: 20px;
 }
 
 .about-bruk {
   padding-left: 70px;
-  padding-top: 60px;
+  padding-top: 30px;
 }
 
 .bura {
@@ -200,7 +206,7 @@
   margin-top: 25px;
   width: 25%;
   height: 48px;
-  background-color: #852c00;
+  background-color: #f55800;
   color: #fff;
   font-size: 15px;
   font-family: 'Inter', sans-serif;
@@ -212,9 +218,9 @@
 .desk-list button {
   width: 100%;
   height: 60px;
-  background-color: #8a3200;
+  background-color: #f55800;
   color: #fff;
-  margin-top: 400px;
+  margin-top: 360px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -255,10 +261,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   border: 1px solid rgb(245, 236, 236);
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: flex-end;
 }
 
 .data1 {
@@ -315,7 +317,6 @@
 .mob-tit {
   color: #fff;
   font-size: 32px;
-  background-color: #4d4d4d;
   display: flex;
   justify-content: center;
   font-family: 'Crete Round', sans-serif;
@@ -323,13 +324,12 @@
   font-weight: 400;
   line-height: 44px;
   margin-left: 15px;
-  margin-top: 130px;
+  margin-top: 135px;
 }
 
 .mob-tit1 {
   color: #fff;
   font-size: 32px;
-  background-color: #4d4d4d;
   display: flex;
   justify-content: center;
   font-family: 'Crete Round', sans-serif;
@@ -343,7 +343,6 @@
 .mob-dics {
   color: #fff;
   margin-left: 15px;
-  background-color: #4d4d4d;
   margin-top: 30px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -417,7 +416,7 @@
   width: 160px;
   height: 50px;
   margin-left: 88px;
-  background-color: #8f3400;
+  background-color: #f55800;
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -539,7 +538,7 @@
   margin-left: 150px;
   width: 131px;
   margin-top: 15px;
-  background-color: #8a3200;
+  background-color: #f55800;
   color: #fff;
   height: 48px;
   font-family: 'Roboto', sans-serif;
@@ -634,7 +633,6 @@
   height: 114px;
   background: #fbfbf7;
   border: none;
-  text-justify: top;
   font-weight: bolder;
 }
 
@@ -718,22 +716,95 @@
     overflow-x: hidden;
   }
 
+  .head {
+    display: block;
+  }
+
   .nav-top {
-    display: flex;
+    display: block;
+  }
+
+  .nav-top img {
+    display: none;
   }
 
   .tit {
     position: relative;
-    right: 90px;
+    right: 120px;
+    top: 14px;
   }
 
   .nav-menu {
     display: none;
   }
 
+  .nav-menu.active {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    background: #3c3a39;
+    width: 100%;
+    z-index: 1;
+    gap: 30px;
+  }
+
+  .nav-menu li {
+    position: relative;
+    top: 55px;
+    left: 35px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    width: 85%;
+    border-bottom: 1px solid #6f6c6b;
+  }
+
+  .nav-menu a {
+    color: #fff5e1;
+  }
+
+  .nav-menu img {
+    margin-top: 191px;
+    color: #3c3a39;
+    opacity: 0;
+  }
+
   .main-m {
-    display: block;
-    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    width: 24px;
+    gap: 3px;
+    position: absolute;
+    top: 20px;
+    right: 27px;
+    z-index: 25;
+  }
+
+  .main-m .bar {
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+
+  #mob-mn.is-active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  #mob-mn.is-active .bar:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+    background-color: #67798e;
+  }
+
+  #mob-mn.is-active .bar:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
+    background-color: #67798e;
   }
 
   .info {
@@ -748,7 +819,7 @@
 
   .about-bruk {
     position: relative;
-    right: 250px;
+    right: 260px;
   }
 
   .about-bruk h1 {
@@ -771,7 +842,7 @@
   .icon {
     display: flex;
     flex-direction: row;
-    padding-top: 75vh;
+    padding-top: 87vh;
     gap: 22px;
     cursor: pointer;
     position: relative;
@@ -882,7 +953,7 @@
     background-color: #f55800;
     color: #fff;
     position: relative;
-    bottom: 40px;
+    bottom: 37px;
     border: none;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -989,8 +1060,8 @@
     display: flex;
     justify-content: center;
     position: relative;
-    top: 170px;
-    height: 190px;
+    top: 280px;
+    height: 110px;
   }
 
   .last-icon i {
