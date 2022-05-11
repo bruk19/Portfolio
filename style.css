@@ -760,7 +760,7 @@
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
-    width: 80%;
+    width: 85%;
     border-bottom: 1px solid #6f6c6b;
   }
 
@@ -781,8 +781,8 @@
     width: 24px;
     gap: 3px;
     position: absolute;
-    top: 18px;
-    right: 15px;
+    top: 20px;
+    right: 27px;
     z-index: 25;
   }
 
