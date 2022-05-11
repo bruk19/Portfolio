@@ -20,6 +20,12 @@
   align-items: center;
 }
 
+.nav-top img {
+  position: relative;
+  right: 130px;
+  top: 2px;
+}
+
 .nav-menu {
   display: flex;
   list-style: none;
@@ -86,7 +92,7 @@
 
 .about-bruk {
   padding-left: 70px;
-  padding-top: 60px;
+  padding-top: 30px;
 }
 
 .bura {
@@ -718,6 +724,10 @@
     display: block;
   }
 
+  .nav-top img {
+    display: none;
+  }
+
   .tit {
     position: relative;
     right: 120px;
@@ -729,9 +739,9 @@
   }
 
   .nav-menu.active {
-    height: 100vh;
-    position: relative;
-    top: -10px;
+    height: 100%;
+    position: absolute;
+    top: 0;
     display: flex;
     text-align: left;
     flex-direction: column;
@@ -743,16 +753,19 @@
 
   .nav-menu li {
     position: relative;
-    top: 35px;
+    top: 55px;
     left: 35px;
-    width: 80%;
-    color: #fff5e1;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
+    width: 80%;
     border-bottom: 1px solid #6f6c6b;
+  }
+
+  .nav-menu a {
+    color: #fff5e1;
   }
 
   .nav-menu img {
@@ -786,10 +799,12 @@
 
   #mob-mn.is-active .bar:nth-child(1) {
     transform: translateY(6px) rotate(45deg);
+    background-color: #67798e;
   }
 
   #mob-mn.is-active .bar:nth-child(3) {
     transform: translateY(-6px) rotate(-45deg);
+    background-color: #67798e;
   }
 
   .info {
