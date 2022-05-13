@@ -101,6 +101,35 @@ box2.insertAdjacentHTML('afterend', `
 </div>`);
 */
 
+const SeeProjectButton = document.querySelectorAll('.betn');
+SeeProjectButton.forEach((item, i) => {
+  item.addEventListener('click', () => {
+    const windowPop = document.querySelector('.pop');
+    windowPop.style.display = 'block';
+    const projectDetail = projectDetails[i];
+    const proj = pros[i];
+    const heading = document.querySelector('.modal-mob');
+    heading.textContent = projectDetail.titleOne;
+    const head2 = document.querySelector('.modall');
+    head2.textContent = proj.titleTwo;
+    const paragraph = document.querySelector('.p1');
+    paragraph.textContent = projectDetail.descriptionOne;
+    const para2 = document.querySelector('.pnew');
+    para2.textContent = proj.descriptionTwo;
+    const picture = document.querySelector('.imgs');
+    picture.src = projectDetail.imageOne;
+    const languag = document.querySelectorAll('.modal-liste');
+    languag.forEach((li, s) => {
+      li.textContent = projectDetail.languages[s];
+    });
+    const live = windowPop.querySelector('.button')[0];
+    live.href = projectDetail.linklive;
+    const source = windowPop.querySelector('.button')[1];
+    source.href = projectDetail.linkSource;
+  });
+});
+
+
 const SeeProjectB = document.querySelectorAll('.btk');
 SeeProjectB.forEach((item, i) => {
   item.addEventListener('click', () => {
@@ -121,29 +150,6 @@ SeeProjectB.forEach((item, i) => {
     liv.href = projectDetail.linkLives;
     const sourc = windowPop.querySelector('.button');
     sourc.href = projectDetail.linkSors;
-  });
-});
-
-const SeeProjectButton = document.querySelectorAll('.betn');
-SeeProjectButton.forEach((item, i) => {
-  item.addEventListener('click', () => {
-    const windowPop = document.querySelector('.pop');
-    windowPop.style.display = 'block';
-    const projectDetail = projectDetails[i];
-    const heading = document.querySelector('.modal-mob');
-    heading.textContent = projectDetail.titleOne;
-    const paragraph = document.querySelector('.p1');
-    paragraph.textContent = projectDetail.descriptionOne;
-    const picture = document.querySelector('.imgs');
-    picture.src = projectDetail.imageOne;
-    const languag = document.querySelectorAll('.modal-liste');
-    languag.forEach((li, s) => {
-      li.textContent = projectDetail.languages[s];
-    });
-    const live = windowPop.querySelector('.button')[0];
-    live.href = projectDetail.linklive;
-    const source = windowPop.querySelector('.button')[1];
-    source.href = projectDetail.linkSource;
   });
 });
 

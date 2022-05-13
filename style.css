@@ -134,11 +134,12 @@
 }
 
 .pop {
-  position: absolute;
-  top: 80px;
+  position: fixed;
+  top: 30px;
   left: 90px;
   width: 83%;
   background-color: #fff;
+  border: 1px solid #e7dede;
 }
 
 .pop .modall {
@@ -991,11 +992,15 @@
   .pop {
     display: none;
     flex-direction: column;
-    position: absolute;
+    position: fixed;
     top: 30px;
     left: 13px;
     width: 93%;
     background: #fff;
+    border: 1px solid #e7dede;
+    z-index: 66;
+    overflow: scroll;
+    height: 99vh;
   }
 
   .pop .modall {
@@ -1314,3 +1319,4 @@
     margin-top: 10vh;
   }
 }
+
