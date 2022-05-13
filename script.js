@@ -23,7 +23,7 @@ const projectDetails = [
     imageOne: 'img/pop-big.png',
     descriptionOne: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     linklive: 'https://bruk19.github.io/Portfolio/',
-    linkSource: 'git clone https://github.com/bruk19/Portfolio.git',
+    linkSource: 'https://github.com/bruk19/Portfolio',
   },
 ];
 
@@ -34,7 +34,7 @@ const pros = [
     imageTwo: 'img/pop-big.png',
     descriptionTwo: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type  and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     linkLives: 'https://bruk19.github.io/Portfolio/',
-    linkSors: 'git clone https://github.com/bruk19/Portfolio.git',
+    linkSors: 'https://github.com/bruk19/Portfolio',
   },
 ];
 
@@ -56,8 +56,8 @@ box3.insertAdjacentHTML('afterend', `
     <p class="pnew"></p>
   </div>
   <div class="iner-btn">
-    <a href="#"><button class="button">see live    <i class="fa-solid fa-arrow-up-right-from-square"></i></i></button></a>
-    <a href="#"><button class="button">see Source <i class="fa-brands fa-github"></i></button></a>
+    <a href="https://bruk19.github.io/Portfolio/"><button class="button">see live    <i class="fa-solid fa-arrow-up-right-from-square"></i></i></button></a>
+    <a href="https://github.com/bruk19/Portfolio"><button class="button">see Source <i class="fa-brands fa-github"></i></button></a>
   </div>
 </div>`);
 
