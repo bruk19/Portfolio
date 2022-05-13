@@ -16,13 +16,6 @@ const b = document.querySelector('.betn');
 const c = document.querySelector('.btk');
 const section = document.querySelector('.info');
 
-function appe() {
-  p.style.display = 'block';
-  section.style.filter = 'blur(10px)';
-}
-b.addEventListener('click', appe);
-c.addEventListener('click', appe);
-
 const projectDetails = [
   {
     titleOne: 'Keeping track of hundreds  of components website',
