@@ -11,11 +11,6 @@ document.querySelectorAll('.nav-lin').forEach((n) => n.addEventListener('click',
   menuLinks.classList.remove('active');
 }));
 
-const p = document.querySelector('.pop');
-const b = document.querySelector('.betn');
-const c = document.querySelector('.btk');
-const section = document.querySelector('.info');
-
 const projectDetails = [
   {
     titleOne: 'Keeping track of hundreds  of components website',
