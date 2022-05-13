@@ -131,9 +131,6 @@
 
 .pop {
   display: none;
-}
-
-.pop {
   position: fixed;
   top: 30px;
   left: 90px;
@@ -177,7 +174,6 @@
 
 .pop-list li {
   border: 1px solid #dfe1e6;
-  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
   height: 30px;
   width: 110px;
   color: #3c3a39;
@@ -242,7 +238,7 @@
   height: 48px;
   margin-top: 10px;
   background: #f55800;
-  color: #fff;  
+  color: #fff;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -987,10 +983,6 @@
 
   .pop {
     display: none;
-  }
-
-  .pop {
-    display: none;
     flex-direction: column;
     position: fixed;
     top: 30px;
@@ -1112,9 +1104,8 @@
   .recent-disc {
     margin-left: 20px;
   }
-  
+
   .mob-btn {
-    margin-top: 25px;
     width: 25%;
     height: 48px;
     background-color: #f55800;
@@ -1124,21 +1115,11 @@
     font-style: normal;
     border: none;
     font-weight: 700;
-  }
-  
-
-  .mob-btn {
     position: relative;
     left: 30px;
     margin-top: 35px;
-  }
-
-  .mob-btn {
-    background: #fff5e1;
-    color: #f55800;
     border: 1px solid #f55800;
   }
-  
 
   .desk-grid {
     display: none;
@@ -1319,4 +1300,3 @@
     margin-top: 10vh;
   }
 }
-

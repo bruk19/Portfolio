@@ -25,14 +25,6 @@ function appe() {
 b.addEventListener('click', appe);
 c.addEventListener('click', appe);
 
-function disappeP(t) {
-  if (t.target.className === '.pop') {
-    p.style.display = 'none';
-    section.style.filter = 'blur(0px)';
-  }
-}
-
-
 const projectDetails = [
   {
     titleOne: 'Keeping track of hundreds  of components website',
