@@ -11,8 +11,6 @@ document.querySelectorAll('.nav-lin').forEach((n) => n.addEventListener('click',
   menuLinks.classList.remove('active');
 }));
 
-/*window popup ----------------------------------------*/
-
 const p = document.querySelector('.pop');
 const b = document.querySelector('.betn');
 const c = document.querySelector('.btk');
@@ -121,7 +119,6 @@ SeeProjectButton.forEach((item, i) => {
   });
 });
 
-
 const SeeProjectB = document.querySelectorAll('.btk');
 SeeProjectB.forEach((item, i) => {
   item.addEventListener('click', () => {
@@ -150,4 +147,3 @@ closeProjectButton.addEventListener('click', () => {
   const windowPop = document.querySelector('.pop');
   windowPop.style.display = 'none';
 });
-
