@@ -68,29 +68,6 @@ box3.insertAdjacentHTML('afterend', `
   </div>
 </div>`);
 
-/*
-const box2 = document.querySelector('.btk');
-box2.insertAdjacentHTML('afterend', `
-<div class="pop">
-  <h3 class="modall"></h3>
-  <img class="immg" src="img/pop.png" alt="popp">
-  <ul class="pop-list">
-    <li class="modal-liste"></li>
-    <li class="modal-liste"></li>
-    <li class="modal-liste"></li>
-  </ul>
-  <div class="ins-pop">
-    <img class="imgs" src="img/pop-big.png" alt="big-image">
-    <div class="iner-pop">
-    <p class="pnew"></p>
-  </div>
-  <div class="iner-btn">
-    <a href="#"><button class="button">see live <i class="fa-solid fa-arrow-up-right-from-square"></i></i></button></a>
-    <a href="#"><button class="button">see Source <i class="fa-brands fa-github"></i></button></a>
-  </div>
-</div>`);
-*/
-
 const SeeProjectButton = document.querySelectorAll('.betn');
 SeeProjectButton.forEach((item, i) => {
   item.addEventListener('click', () => {
