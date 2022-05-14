@@ -16,7 +16,7 @@
 
 ## Getting Started
 
-**Just clone the project by runing the `https://github.com/bruk19/My-Portfolio.git` command in your command line, and you are done.**
+**Just clone the project by runing the `https://github.com/bruk19/Portfolio.git` command in your command line, cd Portfolio, open with live server and you are done.**
 
 
 ## Author
