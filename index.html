@@ -241,11 +241,12 @@
             <div class="contact">
                 <p class="cont-dics">I'm always interested in hearing about new projects, 
                     so if you'd like to chat please get in touch.</p>
-                <form class="ip-type" action="https://formspree.io/f/xzbokgee" method="post">
-                    <input type="text" class="input" placeholder="   Full Name" required>
-                    <input type="email" class="input" placeholder="   Email Address" required>
-                    <textarea name="msgt1" class="input-one" cols="30" rows="10" maxlength="500" placeholder="  Enter text here" required></textarea>
+                <form id="message" class="ip-type" action="https://formspree.io/f/xzbokgee" method="post">
+                    <input type="text" id="name" class="input" placeholder="   Full Name" maxlength="30" required>
+                    <input type="email" id="email" class="input" placeholder="   Email Address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+                    <textarea name="msgt1" id="t1" class="input-one" cols="30" rows="10" maxlength="500" placeholder="  Enter text here" required></textarea>
                     <button type="button" class="cont-btn">Get in touch</button>
+                    <span id="validator-message"></span>
                 </form>
             </div>
         </div>
