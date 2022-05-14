@@ -13,6 +13,10 @@
   justify-content: space-between;
 }
 
+.mob-btn {
+  display: none;
+}
+
 .nav-top {
   display: flex;
   text-decoration: none;
@@ -125,6 +129,131 @@
   font-size: 20px;
 }
 
+.pop {
+  display: none;
+  position: fixed;
+  top: 30px;
+  left: 7%;
+  width: 85%;
+  background-color: #fff;
+  border: 1px solid #e7dede;
+}
+
+.pop .modall {
+  display: none;
+}
+
+.pop .modal-mob {
+  color: #172b4d;
+  margin-top: 15px;
+  margin-left: 15px;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.immg {
+  display: none;
+}
+
+.x {
+  position: absolute;
+  right: 25px;
+  top: 32px;
+}
+
+.pop-list {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  position: relative;
+  left: 20px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.pop-list li {
+  border: 1px solid #dfe1e6;
+  height: 30px;
+  width: 110px;
+  color: #3c3a39;
+  position: relative;
+  bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.html-btn {
+  max-width: 60px;
+}
+
+.ins-pop {
+  width: 83%;
+  display: grid;
+  grid-template-columns: 68% 44%;
+}
+
+.ins-pop .imgs {
+  margin-left: 26px;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.iner-pop {
+  color: #fff;
+  margin-left: 20px;
+  width: 100%;
+}
+
+.iner-pop .p1 {
+  color: #344563;
+  margin-top: -10px;
+  margin-left: 28px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 98%;
+  line-height: 27px;
+  width: 100%;
+  min-width: 380px;
+}
+
+.iner-pop .pnew {
+  width: 100%;
+  display: none;
+}
+
+.iner-btn {
+  display: flex;
+  list-style: none;
+  position: absolute;
+  right: 15%;
+  bottom: 4%;
+  gap: 9px;
+  margin-left: 5px;
+}
+
+.iner-btn .button {
+  width: 130px;
+  height: 48px;
+  background: #f55800;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.iner-btn .button:hover {
+  background: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
+}
+
 .work-hr {
   display: flex;
   flex-direction: column;
@@ -132,7 +261,7 @@
 
 .work-hr hr {
   width: 60%;
-  margin-left: 600px;
+  margin-left: 530px;
   position: relative;
   bottom: 20px;
 }
@@ -155,9 +284,9 @@
   margin-top: 120px;
 }
 
-.img img {
-  width: 80%;
-  margin-left: 110px;
+.picplace {
+  width: 85%;
+  margin-left: 30px;
 }
 
 .recent-title {
@@ -842,7 +971,7 @@
   .icon {
     display: flex;
     flex-direction: row;
-    padding-top: 87vh;
+    padding-top: 72vh;
     gap: 22px;
     cursor: pointer;
     position: relative;
@@ -860,6 +989,92 @@
     background-size: 300px;
   }
 
+  .pop {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 30px;
+    left: 13px;
+    width: 93%;
+    background: #fff;
+    border: 1px solid #e7dede;
+    z-index: 66;
+    overflow: scroll;
+    height: 99vh;
+  }
+
+  .pop .modall {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .pop .modal-mob {
+    display: none;
+  }
+
+  .x {
+    width: 15px;
+    position: absolute;
+    top: -32px;
+    left: 85vw;
+  }
+
+  .ins-pop {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .ins-pop .imgs {
+    width: 100%;
+  }
+
+  .iner-pop {
+    height: 330px;
+  }
+
+  .iner-pop .p1 {
+    display: none;
+  }
+
+  .iner-pop .pnew {
+    display: grid;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    margin-top: 10px;
+  }
+
+  .iner-btn {
+    position: absolute;
+    right: 20vw;
+    top: 595px;
+  }
+
+  .html-btn {
+    width: 60px;
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  .pop-list li {
+    width: 100px;
+  }
+
+  .my-workr button {
+    position: relative;
+    left: 15px;
+  }
+
   .my-recent {
     padding-left: 0;
     margin: 0 auto;
@@ -869,6 +1084,8 @@
     width: 70px;
     height: 40px;
     gap: 2px;
+    position: relative;
+    left: 15px;
   }
 
   .work-hr hr {
@@ -884,15 +1101,31 @@
   }
 
   .img img {
-    width: 90%;
     position: relative;
-    right: 88px;
+    right: 8px;
   }
 
-  .my-workr {
+  .recent-title {
+    margin-left: 25px;
+  }
+
+  .recent-disc {
+    margin-left: 20px;
+  }
+
+  .mob-btn {
+    width: 25%;
+    height: 48px;
+    background-color: #f55800;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
     position: relative;
     left: 30px;
     margin-top: 35px;
+    border: 1px solid #f55801;
   }
 
   .desk-grid {
