@@ -45,6 +45,13 @@
   margin-right: 139px;
 }
 
+#validator-message {
+  color: red;
+  margin-left: 300px;
+  width: 100%;
+  margin-top: -26px;
+}
+
 .nav-menu li {
   padding-right: 32px;
 }
