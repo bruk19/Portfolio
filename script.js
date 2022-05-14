@@ -103,7 +103,6 @@ closeProjectButton.addEventListener('click', () => {
   windowPop.style.display = 'none';
 });
 
-
 const emailAddress = document.getElementById('email');
 const validatorMessage = document.getElementById('validator-message');
 const btn1 = document.querySelector('.cont-btn');
@@ -146,4 +145,3 @@ loadData();
 formName.addEventListener('change', storeData);
 formEmail.addEventListener('change', storeData);
 formText.addEventListener('change', storeData);
-
