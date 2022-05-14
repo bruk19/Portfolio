@@ -133,7 +133,7 @@
   display: none;
   position: fixed;
   top: 30px;
-  left: 90px;
+  left: 7%;
   width: 85%;
   background-color: #fff;
   border: 1px solid #e7dede;
@@ -215,10 +215,10 @@
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 95%;
+  font-size: 98%;
   line-height: 27px;
   width: 100%;
-  min-width: 360px;
+  min-width: 380px;
 }
 
 .iner-pop .pnew {
@@ -233,6 +233,7 @@
   right: 15%;
   bottom: 4%;
   gap: 9px;
+  margin-left: 5px;
 }
 
 .iner-btn .button {
@@ -1049,7 +1050,7 @@
 
   .iner-btn {
     position: absolute;
-    right: 13vw;
+    right: 20vw;
     top: 595px;
   }
 
