@@ -13,23 +13,14 @@ document.querySelectorAll('.nav-lin').forEach((n) => n.addEventListener('click',
 
 const projectDetails = [
   {
-    titleOne: 'Keeping track of hundreds  of components website',
+    title: 'Keeping track of hundreds  of components website',
     languages: ['html', 'Bootstrap', 'Ruby on Rails'],
-    imageOne: 'img/pop-big.png',
-    descriptionOne: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    image: 'img/pop-big.png',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     linklive: 'https://bruk19.github.io/Portfolio/',
     linkSource: 'https://github.com/bruk19/Portfolio',
-  },
-];
-
-const pros = [
-  {
-    titleTwo: 'Multi Post Stories',
-    languagesTwo: ['html', 'Bootstrap', 'Ruby on Rails'],
-    imageTwo: 'img/pop-big.png',
-    descriptionTwo: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type  and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    linkLives: 'https://bruk19.github.io/Portfolio/',
-    linkSors: 'https://github.com/bruk19/Portfolio',
+    tittle: 'Multi Post Stories',
+    descripton: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type  and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
   },
 ];
 
@@ -62,17 +53,16 @@ SeeProjectButton.forEach((item, i) => {
     const windowPop = document.querySelector('.pop');
     windowPop.style.display = 'block';
     const projectDetail = projectDetails[i];
-    const proj = pros[i];
     const heading = document.querySelector('.modal-mob');
-    heading.textContent = projectDetail.titleOne;
+    heading.textContent = projectDetail.title;
     const head2 = document.querySelector('.modall');
-    head2.textContent = proj.titleTwo;
+    head2.textContent = projectDetail.tittle;
     const paragraph = document.querySelector('.p1');
-    paragraph.textContent = projectDetail.descriptionOne;
+    paragraph.textContent = projectDetail.description;
     const para2 = document.querySelector('.pnew');
-    para2.textContent = proj.descriptionTwo;
+    para2.textContent = projectDetail.descripton;
     const picture = document.querySelector('.imgs');
-    picture.src = projectDetail.imageOne;
+    picture.src = projectDetail.image;
     const languag = document.querySelectorAll('.modal-liste');
     languag.forEach((li, s) => {
       li.textContent = projectDetail.languages[s];
@@ -89,13 +79,13 @@ SeeProjectB.forEach((item, i) => {
   item.addEventListener('click', () => {
     const windowPop = document.querySelector('.pop');
     windowPop.style.display = 'block';
-    const projectDetail = pros[i];
+    const projectDetail = projectDetails[i];
     const heading = document.querySelector('.modall');
-    heading.textContent = projectDetail.titleTwo;
+    heading.textContent = projectDetail.tittle;
     const paragraph = document.querySelector('.pnew');
-    paragraph.textContent = projectDetail.descriptionTwo;
+    paragraph.textContent = projectDetail.descripton;
     const picture = document.querySelector('.imgs');
-    picture.src = projectDetail.imageTwo;
+    picture.src = projectDetail.image;
     const languag = document.querySelectorAll('.modal-liste');
     languag.forEach((li, s) => {
       li.textContent = projectDetail.languagesTwo[s];

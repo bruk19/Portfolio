@@ -971,7 +971,7 @@
   .icon {
     display: flex;
     flex-direction: row;
-    padding-top: 87vh;
+    padding-top: 72vh;
     gap: 22px;
     cursor: pointer;
     position: relative;
