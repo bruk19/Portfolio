@@ -118,3 +118,16 @@ btn1.addEventListener('click', (e) => {
     form.submit();
   }
 });
+
+const formName = document.querySelector('#name');
+const formEmail = document.querySelector('#email');
+const formText = document.querySelector('#t1');
+
+function storeData() {
+  const formData = {
+    name: formName.value,
+    email: formEmail.value,
+    msg: formText.value,
+  };
+  localStorage.setItem('formData', JSON.stringify(formData));
+}
