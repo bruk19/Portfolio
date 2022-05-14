@@ -141,3 +141,9 @@ function loadData() {
   formName.setAttribute('value', localData.name);
   formEmail.setAttribute('value', localData.email);
   formText.innerText = localData.msg;
+}
+loadData();
+formName.addEventListener('change', storeData);
+formEmail.addEventListener('change', storeData);
+formText.addEventListener('change', storeData);
+
