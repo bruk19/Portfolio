@@ -134,7 +134,7 @@
   position: fixed;
   top: 30px;
   left: 90px;
-  width: 83%;
+  width: 85%;
   background-color: #fff;
   border: 1px solid #e7dede;
 }
@@ -159,9 +159,9 @@
 }
 
 .x {
-  position: relative;
-  left: 1080px;
-  bottom: 35px;
+  position: absolute;
+  right: 25px;
+  top: 32px;
 }
 
 .pop-list {
@@ -170,6 +170,8 @@
   gap: 10px;
   position: relative;
   left: 20px;
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
 
 .pop-list li {
@@ -196,8 +198,7 @@
 
 .ins-pop .imgs {
   margin-left: 26px;
-  margin-bottom: 15px;
-  margin-top: 15px;
+  margin-bottom: 25px;
   width: 100%;
 }
 
@@ -209,14 +210,15 @@
 
 .iner-pop .p1 {
   color: #344563;
-  margin-top: 5px;
+  margin-top: -10px;
   margin-left: 28px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 95%;
+  line-height: 27px;
   width: 100%;
+  min-width: 360px;
 }
 
 .iner-pop .pnew {
@@ -228,15 +230,14 @@
   display: flex;
   list-style: none;
   position: absolute;
-  right: 150px;
+  right: 15%;
+  bottom: 4%;
   gap: 9px;
-  bottom: 2vh;
 }
 
 .iner-btn .button {
-  width: 139px;
+  width: 130px;
   height: 48px;
-  margin-top: 10px;
   background: #f55800;
   color: #fff;
   font-family: 'Inter', sans-serif;
